@@ -52,8 +52,8 @@ document.onkeyup = function (event) {
         if (guessesLeft === 0) {
             guessesLeft = 0;
             document.getElementById("lose2").innerHTML = losses + 1;
-            document.getElementById("guess3").innerHTML = 9;
-            document.getElementById("guess4").innerHTML = [];
+            document.getElementById("guess3").innerHTML = guessesLeft = 9;
+            document.getElementById("guess4").innerHTML = guessSofar = [];
         }
 
         // if (guessesLeft === 0) {
