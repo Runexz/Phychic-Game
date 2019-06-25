@@ -1,37 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- linked style.css and bootstrap -->
+    <!-- linked style.css and bootstrap -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Psychic Game</title>
 </head>
+
 <body class="bg-danger">
-        <div class="jumbotron">
-                <h1 class="display-3 text-center">The Psychic Game!</h1>
-                <p class="lead text-center font-italic">Guess what letter I'm thinking of!</p>
-                </p>
-              </div>
+    <!-- This is the top jumbotron containing The psychic game and Guess what letter im thinkning of -->
+    <div class="jumbotron">
+        <h1 class="display-3 text-center">The Psychic Game!</h1>
+        <p class="lead text-center font-italic">Guess what letter I'm thinking of!</p>
+        </p>
+    </div>
+    <!-- This contains press lowercase letter to start then gets replaced with info from javascript using id=gamejs -->
     <div class="bg-dark text-white text-center py-5" id="gamejs">
         <h1>Press lowercase letter to start the game!</h1>
-        <!-- <span>Wins: </span><span id="win1"></span> -->
-        <!-- <br> -->
-        <!-- <br> -->
-        <!-- <span>Losses: </span><span id="lose2"></span> -->
-        <!-- <br> -->
-        <!-- <br> -->
-        <!-- <span>Guesses Left: </span><span id="guess3"></span> -->
-        <!-- <br> -->
-        <!-- <br> -->
-        <!-- <span>Your Guesses so far: </span><span id="guess4"></span><br> -->
     </div>
 
 
-<!-- link game.js javascript -->
-<script src="assets/javascript/game.js"></script>
+    <!-- link game.js javascript -->
+    <script src="assets/javascript/game.js"></script>
 </body>
+
 </html>
